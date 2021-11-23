@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C8B3AF4274D0C4F00919AC3 /* DiskSpaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B3AF3274D0C4F00919AC3 /* DiskSpaceApp.swift */; };
-		4C8B3AF6274D0C4F00919AC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B3AF5274D0C4F00919AC3 /* ContentView.swift */; };
-		4C8B3AF8274D0C5100919AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B3AF7274D0C5100919AC3 /* Assets.xcassets */; };
-		4C8B3AFB274D0C5100919AC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8B3AFA274D0C5100919AC3 /* Preview Assets.xcassets */; };
+		4C8B3AF4274D0C4F00919AC3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B3AF3274D0C4F00919AC3 /* App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C8B3AF0274D0C4F00919AC3 /* DiskSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiskSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C8B3AF3274D0C4F00919AC3 /* DiskSpaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskSpaceApp.swift; sourceTree = "<group>"; };
-		4C8B3AF5274D0C4F00919AC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4C8B3AF7274D0C5100919AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C8B3AFA274D0C5100919AC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C8B3AF3274D0C4F00919AC3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		4C8B3B02274D16AE00919AC3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +30,8 @@
 		4C8B3AE7274D0C4E00919AC3 = {
 			isa = PBXGroup;
 			children = (
-				4C8B3AF2274D0C4F00919AC3 /* DiskSpace */,
+				4C8B3B02274D16AE00919AC3 /* README.md */,
+				4C8B3AF3274D0C4F00919AC3 /* App.swift */,
 				4C8B3AF1274D0C4F00919AC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,25 +42,6 @@
 				4C8B3AF0274D0C4F00919AC3 /* DiskSpace.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4C8B3AF2274D0C4F00919AC3 /* DiskSpace */ = {
-			isa = PBXGroup;
-			children = (
-				4C8B3AF3274D0C4F00919AC3 /* DiskSpaceApp.swift */,
-				4C8B3AF5274D0C4F00919AC3 /* ContentView.swift */,
-				4C8B3AF7274D0C5100919AC3 /* Assets.xcassets */,
-				4C8B3AF9274D0C5100919AC3 /* Preview Content */,
-			);
-			path = DiskSpace;
-			sourceTree = "<group>";
-		};
-		4C8B3AF9274D0C5100919AC3 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4C8B3AFA274D0C5100919AC3 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +102,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8B3AFB274D0C5100919AC3 /* Preview Assets.xcassets in Resources */,
-				4C8B3AF8274D0C5100919AC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8B3AF6274D0C4F00919AC3 /* ContentView.swift in Sources */,
-				4C8B3AF4274D0C4F00919AC3 /* DiskSpaceApp.swift in Sources */,
+				4C8B3AF4274D0C4F00919AC3 /* App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +170,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +225,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -268,7 +242,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DiskSpace/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -281,7 +254,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.deepup.DiskSpace;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.pomcast.diskspace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -296,7 +269,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DiskSpace/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -309,7 +281,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.deepup.DiskSpace;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.pomcast.diskspace;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
